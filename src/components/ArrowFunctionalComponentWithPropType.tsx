@@ -21,6 +21,7 @@ type Props = A & B;
 //     description: string;
 // }
 
+
 const ArrowFunctionalComponentWithPropType =({title,description}:Props) => {
     return (
         <>
