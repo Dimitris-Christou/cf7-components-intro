@@ -4,7 +4,8 @@
 // import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
 // import ArrowFunctionalComponentWithPropType from "./components/ArrowFunctionalComponentWithPropType.tsx";
 import Layout from "./components/Layout.tsx";
-import CounterWithAdvancedCustomHook from "./components/CounterWithAdvancedCustomHook.tsx";
+// import CounterWithReducer from "./components/CounterWithReducer.tsx";
+// import CounterWithAdvancedCustomHook from "./components/CounterWithAdvancedCustomHook.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import FunctionalComponent from "./components/FunctionalComponent.tsx";
@@ -13,6 +14,7 @@ import CounterWithAdvancedCustomHook from "./components/CounterWithAdvancedCusto
 // import CounterWithMultipleStates from "./components/CounterWithMultipleStates.tsx";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
+import Todo from "./components/Todo/Todo.tsx"
 
 
 
@@ -40,7 +42,9 @@ function App() {
             {/*<CounterWithMultipleStates/>*/}
             {/*<CounterAdvanced/>*/}
             {/*<CounterWithCustomHook/>*/}
-            <CounterWithAdvancedCustomHook/>
+            {/*<CounterWithAdvancedCustomHook/>*/}
+            {/*<CounterWithReducer/>*/}
+            <Todo/>
 
         </Layout>
     </>
